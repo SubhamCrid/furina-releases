@@ -1,0 +1,8 @@
+version: 1.0.2
+files:
+  - url: https://github.com/SubhamCrid/furina-releases/releases/download/software-v1.0.2/AfterStream-Setup-1.0.2.exe
+    sha512: 90JYro9xRalifXhxThbKVkdrhmEmQIaJTiaicutFG/4lGd26nkN5JWTR0wGvgHGFxmSColAarbuhPb6umm8diw==
+    size: 87690967
+path: https://github.com/SubhamCrid/furina-releases/releases/download/software-v1.0.2/AfterStream-Setup-1.0.2.exe
+sha512: 90JYro9xRalifXhxThbKVkdrhmEmQIaJTiaicutFG/4lGd26nkN5JWTR0wGvgHGFxmSColAarbuhPb6umm8diw==
+releaseDate: 2026-10-20T16:16:08.267Z
