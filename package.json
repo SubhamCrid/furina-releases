@@ -1,0 +1,18 @@
+{
+  "name": "furina-releases",
+  "version": "1.0.0",
+  "description": "Official release distribution and CDN manifests for Furina Mobile and AfterStream Desktop",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "release:all": "node scripts/publish-release.mjs --target=all",
+    "release:mobile": "node scripts/publish-release.mjs --target=mobile",
+    "release:software": "node scripts/publish-release.mjs --target=software",
+    "purge:cdn": "node scripts/purge-cdn.mjs",
+    "verify:cdn": "node scripts/verify-cdn.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "yaml": "^2.7.0"
+  }
+}

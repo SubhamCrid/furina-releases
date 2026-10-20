@@ -1,0 +1,17 @@
+{
+  "updatedAt": "2026-10-20T14:41:33.161Z",
+  "mobile": {
+    "version": "1.0.16",
+    "versionCode": 17,
+    "tag": "mobile-v1.0.16",
+    "publishedAt": "2026-10-20T14:41:33.153Z",
+    "manifestUrl": "https://cdn.jsdelivr.net/gh/SubhamCrid/furina-releases@main/mobile/latest.yml"
+  },
+  "software": {
+    "version": "1.0.0",
+    "tag": "software-v1.0.0",
+    "publishedAt": "2026-10-18T12:00:00.000Z",
+    "manifestUrl": "https://cdn.jsdelivr.net/gh/SubhamCrid/furina-releases@main/software/latest.yml",
+    "setupUrl": "https://github.com/SubhamCrid/furina-releases/releases/download/software-v1.0.0/AfterStream-Setup-1.0.0.exe"
+  }
+}
