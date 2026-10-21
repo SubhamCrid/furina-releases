@@ -1,47 +1,47 @@
-version: 1.0.25
-versionCode: 26
-publishedAt: 2026-10-21T03:13:30.918Z
+version: 1.0.26
+versionCode: 27
+publishedAt: 2026-10-21T04:30:47.676Z
 minSupportedVersion: 1.0.0
 isCritical: false
 changelog: |-
-  ### What's New in v1.0.25
+  ### What's New in v1.0.26
   - Native performance improvements
   - High-speed video playback & stream optimizations
   - Bug fixes and stability enhancements
 assets:
   arm64-v8a:
     abi: arm64-v8a
-    fileName: Furina-v1.0.25-arm64-v8a.apk
-    downloadUrl: https://github.com/SubhamCrid/furina-releases/releases/download/mobile-v1.0.25/Furina-v1.0.25-arm64-v8a.apk
+    fileName: Furina-v1.0.26-arm64-v8a.apk
+    downloadUrl: https://github.com/SubhamCrid/furina-releases/releases/download/mobile-v1.0.26/Furina-v1.0.26-arm64-v8a.apk
     fallbackUrls:
-      - https://cdn.jsdelivr.net/gh/SubhamCrid/furina-releases@mobile-v1.0.25/mobile/bin/Furina-v1.0.25-arm64-v8a.apk
-    sizeBytes: 30111848
+      - https://cdn.jsdelivr.net/gh/SubhamCrid/furina-releases@mobile-v1.0.26/mobile/bin/Furina-v1.0.26-arm64-v8a.apk
+    sizeBytes: 30111849
     sizeMB: 28.72 MB
-    sha256: 599f63e621cac339e5f2f11ab6490774d0280983f5843c82e6ff077c0be2b940
+    sha256: 899be9ab59d6aafd5714f087e4d65f06588b865603d18c6b4d044e497d4ee911
   armeabi-v7a:
     abi: armeabi-v7a
-    fileName: Furina-v1.0.25-armeabi-v7a.apk
-    downloadUrl: https://github.com/SubhamCrid/furina-releases/releases/download/mobile-v1.0.25/Furina-v1.0.25-armeabi-v7a.apk
+    fileName: Furina-v1.0.26-armeabi-v7a.apk
+    downloadUrl: https://github.com/SubhamCrid/furina-releases/releases/download/mobile-v1.0.26/Furina-v1.0.26-armeabi-v7a.apk
     fallbackUrls:
-      - https://cdn.jsdelivr.net/gh/SubhamCrid/furina-releases@mobile-v1.0.25/mobile/bin/Furina-v1.0.25-armeabi-v7a.apk
-    sizeBytes: 24392837
+      - https://cdn.jsdelivr.net/gh/SubhamCrid/furina-releases@mobile-v1.0.26/mobile/bin/Furina-v1.0.26-armeabi-v7a.apk
+    sizeBytes: 24392844
     sizeMB: 23.26 MB
-    sha256: cb111a424ecfb88c9b6e9e19c9198ef5488c023fbc793dfe7862843b8aebea0a
+    sha256: cd508f9c801475a418a126de490ff8b7cc8a697769f225f8d230d44e925fe456
   universal:
     abi: universal
-    fileName: Furina-v1.0.25-universal.apk
-    downloadUrl: https://github.com/SubhamCrid/furina-releases/releases/download/mobile-v1.0.25/Furina-v1.0.25-universal.apk
+    fileName: Furina-v1.0.26-universal.apk
+    downloadUrl: https://github.com/SubhamCrid/furina-releases/releases/download/mobile-v1.0.26/Furina-v1.0.26-universal.apk
     fallbackUrls:
-      - https://cdn.jsdelivr.net/gh/SubhamCrid/furina-releases@mobile-v1.0.25/mobile/bin/Furina-v1.0.25-universal.apk
-    sizeBytes: 79340025
+      - https://cdn.jsdelivr.net/gh/SubhamCrid/furina-releases@mobile-v1.0.26/mobile/bin/Furina-v1.0.26-universal.apk
+    sizeBytes: 79340026
     sizeMB: 75.66 MB
-    sha256: f754f24f1381d5aa737b39d07da097f3287d5a55b445c1569cf0d1a1e7115f20
+    sha256: 15ada0d20eb0abd6ccb9b2d9c050360baacb968395d67843db696fb673240da6
   x86_64:
     abi: x86_64
-    fileName: Furina-v1.0.25-x86_64.apk
-    downloadUrl: https://github.com/SubhamCrid/furina-releases/releases/download/mobile-v1.0.25/Furina-v1.0.25-x86_64.apk
+    fileName: Furina-v1.0.26-x86_64.apk
+    downloadUrl: https://github.com/SubhamCrid/furina-releases/releases/download/mobile-v1.0.26/Furina-v1.0.26-x86_64.apk
     fallbackUrls:
-      - https://cdn.jsdelivr.net/gh/SubhamCrid/furina-releases@mobile-v1.0.25/mobile/bin/Furina-v1.0.25-x86_64.apk
-    sizeBytes: 30688006
+      - https://cdn.jsdelivr.net/gh/SubhamCrid/furina-releases@mobile-v1.0.26/mobile/bin/Furina-v1.0.26-x86_64.apk
+    sizeBytes: 30688001
     sizeMB: 29.27 MB
-    sha256: 78fef3783e9e101458ddf28ad167be06a7eaf291f09d2cb9247f1bd27664195e
+    sha256: 456e6b09225dab7ccc56e12b0b1bd34441806a44296e19ee773704b08cae47c5

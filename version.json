@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-21T03:50:23.603Z",
+  "updatedAt": "2026-10-21T04:30:47.683Z",
   "mobile": {
-    "version": "1.0.25",
-    "versionCode": 26,
-    "tag": "mobile-v1.0.25",
-    "publishedAt": "2026-10-21T03:13:30.918Z",
+    "version": "1.0.26",
+    "versionCode": 27,
+    "tag": "mobile-v1.0.26",
+    "publishedAt": "2026-10-21T04:30:47.676Z",
     "manifestUrl": "https://raw.githubusercontent.com/SubhamCrid/furina-releases/main/mobile/latest.yml"
   },
   "software": {
