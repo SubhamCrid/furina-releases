@@ -28,14 +28,14 @@ assets:
     sizeMB: 23.24 MB
     sha256: 72d55fcfcca231db0a1eea4666b97d46f6da92f2580f478e4925ae76077f068b
   universal:
-    abi: arm64-v8a
-    fileName: Furina-v1.0.22-arm64-v8a.apk
-    downloadUrl: https://github.com/SubhamCrid/furina-releases/releases/download/mobile-v1.0.22/Furina-v1.0.22-arm64-v8a.apk
+    abi: universal
+    fileName: Furina-v1.0.22-universal.apk
+    downloadUrl: https://github.com/SubhamCrid/furina-releases/releases/download/mobile-v1.0.22/Furina-v1.0.22-universal.apk
     fallbackUrls:
-      - https://cdn.jsdelivr.net/gh/SubhamCrid/furina-releases@mobile-v1.0.22/mobile/bin/Furina-v1.0.22-arm64-v8a.apk
-    sizeBytes: 30086252
-    sizeMB: 28.69 MB
-    sha256: bd84bf2da1aef0abd004abbf8b1fbd0a55dd7b3bc74c765434f8496981c284b3
+      - https://cdn.jsdelivr.net/gh/SubhamCrid/furina-releases@mobile-v1.0.22/mobile/bin/Furina-v1.0.22-universal.apk
+    sizeBytes: 79314436
+    sizeMB: 75.64 MB
+    sha256: 521938ade5ab1b2bc0f5b3b821dfbb9d95a38041c923d76273554d533539c107
   x86_64:
     abi: x86_64
     fileName: Furina-v1.0.22-x86_64.apk

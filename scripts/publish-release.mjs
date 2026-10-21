@@ -210,16 +210,6 @@ async function processMobileRelease() {
     };
   }
 
-  // Ensure 'universal' in the manifest maps to arm64-v8a if available.
-  // This guarantees that devices with unpopulated Platform.constants or older app builds
-  // receive the optimized ~28MB arm64-v8a build rather than the ~75MB universal package.
-  if (manifestAssets['arm64-v8a']) {
-    manifestAssets['universal'] = {
-      ...manifestAssets['arm64-v8a'],
-      abi: 'arm64-v8a',
-    };
-  }
-
   const newMobileManifest = {
     version: currentVersion,
     versionCode: currentVersionCode,
