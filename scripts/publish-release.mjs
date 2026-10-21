@@ -250,7 +250,21 @@ async function processMobileRelease() {
   // Append SHA256SUMS.txt
   appendSha256Sums(sha256Lines);
 
-  // Commit and Push Git
+  // 1. Ensure source repo (mobile) version changes are committed and pushed
+  const mobileGitStatus = runGit('status --porcelain', mobileDir);
+  if (mobileGitStatus && (mobileGitStatus.includes('package.json') || mobileGitStatus.includes('app.json'))) {
+    console.log('\n  📦 Staging and committing source version bump in mobile repo...');
+    runGit('add package.json app.json', mobileDir);
+    runGit(`commit -m "chore(release): bump mobile version to v${currentVersion} (build ${currentVersionCode})"`, mobileDir);
+  }
+  const unpushedMobile = runGit('cherry -v', mobileDir);
+  if (unpushedMobile && unpushedMobile.trim().length > 0) {
+    const branch = runGit('branch --show-current', mobileDir) || 'main';
+    console.log(`  🚀 Pushing source repository commits to SubhamCrid/furina-mobile (${branch})...`);
+    runGit(`push origin ${branch}`, mobileDir);
+  }
+
+  // 2. Commit and Push Release Repository Manifests
   console.log('\n  📦 Staging and committing release manifest to git...');
   runGit('add mobile/ version.json SHA256SUMS.txt README.md');
   runGit(`commit -m "release(mobile): v${currentVersion} [skip ci]"`);
@@ -410,9 +424,23 @@ async function processSoftwareRelease() {
   // Append checksums
   appendSha256Sums([`${setupSha256}  ${setupExe}`]);
 
-  // Commit and Push Git
+  // 1. Ensure source repo (software) version changes are committed and pushed
+  const softwareGitStatus = runGit('status --porcelain', softwareDir);
+  if (softwareGitStatus && softwareGitStatus.includes('package.json')) {
+    console.log('\n  📦 Staging and committing source version bump in software repo...');
+    runGit('add package.json', softwareDir);
+    runGit(`commit -m "chore(release): bump desktop version to v${currentVersion}"`, softwareDir);
+  }
+  const unpushedSoftware = runGit('cherry -v', softwareDir);
+  if (unpushedSoftware && unpushedSoftware.trim().length > 0) {
+    const branch = runGit('branch --show-current', softwareDir) || 'main';
+    console.log(`  🚀 Pushing source repository commits to SubhamCrid/furina-software (${branch})...`);
+    runGit(`push origin ${branch}`, softwareDir);
+  }
+
+  // 2. Commit and Push Release Repository Manifests
   console.log('\n  📦 Staging and committing release manifest to git...');
-  runGit('add software/ version.json SHA256SUMS.txt');
+  runGit('add software/ version.json SHA256SUMS.txt README.md');
   runGit(`commit -m "release(software): v${currentVersion} [skip ci]"`);
 
   if (!tagAlreadyExists) {
