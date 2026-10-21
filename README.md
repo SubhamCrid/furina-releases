@@ -1,10 +1,10 @@
-# Furina & AfterStream Official Releases
+# Furina Official Releases (Mobile & Desktop)
 
 [![Releases](https://img.shields.io/github/v/release/SubhamCrid/furina-releases?style=for-the-badge&color=8b5cf6)](https://github.com/SubhamCrid/furina-releases/releases)
 [![CDN Status](https://img.shields.io/badge/CDN-jsDelivr%20Global-success?style=for-the-badge&logo=jsdelivr)](https://cdn.jsdelivr.net/gh/SubhamCrid/furina-releases@main/version.json)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
-Official distribution repository and edge-CDN manifests for **Furina Mobile (Android)** and **AfterStream Desktop (Windows)**.
+Official distribution repository and edge-CDN manifests for **Furina Mobile (Android)** and **Furina Desktop (Windows)**.
 
 ---
 
@@ -31,8 +31,7 @@ Official distribution repository and edge-CDN manifests for **Furina Mobile (And
 
 | Package | File | Size | Description |
 | :--- | :--- | :--- | :--- |
-| **Windows Installer** | `AfterStream-Setup-1.0.0.exe` | ~94.8 MB | Automatic installer with auto-updates & shortcuts |
-| **Windows Portable** | `AfterStream-1.0.0-portable.exe` | ~90.2 MB | Standalone executable (runs without installation) |
+| **Windows Installer** | `Furina-Setup-1.0.0.exe` | ~94.8 MB | Automatic installer with auto-updates & shortcuts |
 
 ---
 

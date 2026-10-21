@@ -1,7 +1,7 @@
 {
   "name": "furina-releases",
   "version": "1.0.0",
-  "description": "Official release distribution and CDN manifests for Furina Mobile and AfterStream Desktop",
+  "description": "Official release distribution and CDN manifests for Furina Mobile and Furina Desktop",
   "private": true,
   "type": "module",
   "scripts": {

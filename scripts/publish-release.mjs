@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Universal Release Coordinator for Furina & AfterStream
+ * Universal Release Coordinator for Furina (Mobile & Desktop)
  * Handles:
  * - Version change detection
  * - Offline artifact verification
@@ -39,7 +39,7 @@ const dryRun = args.includes('--dry-run');
 const force = args.includes('--force');
 
 console.log('====================================================');
-console.log('🚀 Furina & AfterStream Universal Release Coordinator');
+console.log('🚀 Furina Universal Release Coordinator');
 console.log(`   Target:       ${targetArg.toUpperCase()}`);
 console.log(`   Mode:         ${dryRun ? 'DRY-RUN (Simulated)' : 'PRODUCTION'}`);
 console.log(`   Time:         ${new Date().toISOString()}`);
@@ -303,7 +303,7 @@ async function processMobileRelease() {
  * ============================================================================
  */
 async function processSoftwareRelease() {
-  console.log('\n--- [2/2] Evaluating Software Target (AfterStream Desktop) ---');
+  console.log('\n--- [2/2] Evaluating Software Target (Furina Desktop) ---');
 
   const softwareDir = path.join(repoRoot, 'software');
   const softwarePackageJsonPath = path.join(softwareDir, 'package.json');
@@ -416,7 +416,7 @@ async function processSoftwareRelease() {
   runGit(`commit -m "release(software): v${currentVersion} [skip ci]"`);
 
   if (!tagAlreadyExists) {
-    runGit(`tag -a ${tagName} -m "Release AfterStream Desktop v${currentVersion}"`);
+    runGit(`tag -a ${tagName} -m "Release Furina Desktop v${currentVersion}"`);
   }
 
   console.log('  🚀 Pushing commit and tag to SubhamCrid/furina-releases...');
@@ -429,8 +429,8 @@ async function processSoftwareRelease() {
     try {
       const releaseResponse = await githubApiRequest('/releases', 'POST', {
         tag_name: tagName,
-        name: `AfterStream Desktop v${currentVersion}`,
-        body: `### AfterStream Desktop v${currentVersion}\n- Production release\n- Full embedded streaming proxy & player enhancements`,
+        name: `Furina Desktop v${currentVersion}`,
+        body: `### Furina Desktop v${currentVersion}\n- Production release\n- Full embedded streaming proxy & player enhancements`,
         draft: false,
         prerelease: false,
       });
@@ -464,7 +464,7 @@ async function processSoftwareRelease() {
   // Purge CDN
   await purgeCdnFiles(['software/latest.yml', 'version.json']);
 
-  console.log(`\n  ✅ AfterStream Desktop v${currentVersion} successfully released!`);
+  console.log(`\n  ✅ Furina Desktop v${currentVersion} successfully released!`);
   return { target: 'software', status: 'published', version: currentVersion };
 }
 
