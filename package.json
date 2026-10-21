@@ -8,6 +8,7 @@
     "release:all": "node scripts/publish-release.mjs --target=all",
     "release:mobile": "node scripts/publish-release.mjs --target=mobile",
     "release:software": "node scripts/publish-release.mjs --target=software",
+    "run:all": "node scripts/publish-release.mjs --target=all",
     "purge:cdn": "node scripts/purge-cdn.mjs",
     "verify:cdn": "node scripts/verify-cdn.mjs"
   },
