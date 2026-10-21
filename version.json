@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T03:13:30.925Z",
+  "updatedAt": "2026-10-21T03:14:13.324Z",
   "mobile": {
     "version": "1.0.25",
     "versionCode": 26,
@@ -8,10 +8,10 @@
     "manifestUrl": "https://cdn.jsdelivr.net/gh/SubhamCrid/furina-releases@main/mobile/latest.yml"
   },
   "software": {
-    "version": "1.0.5",
-    "tag": "software-v1.0.5",
-    "publishedAt": "2026-10-21T02:39:15.173Z",
+    "version": "1.0.6",
+    "tag": "software-v1.0.6",
+    "publishedAt": "2026-10-21T03:14:13.321Z",
     "manifestUrl": "https://cdn.jsdelivr.net/gh/SubhamCrid/furina-releases@main/software/latest.yml",
-    "setupUrl": "https://github.com/SubhamCrid/furina-releases/releases/download/software-v1.0.5/Furina-Setup-1.0.5.exe"
+    "setupUrl": "https://github.com/SubhamCrid/furina-releases/releases/download/software-v1.0.6/Furina-Setup-1.0.6.exe"
   }
 }
