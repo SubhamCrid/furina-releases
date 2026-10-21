@@ -1,0 +1,47 @@
+version: 1.0.21
+versionCode: 22
+publishedAt: 2026-10-20T16:15:25.612Z
+minSupportedVersion: 1.0.0
+isCritical: false
+changelog: |-
+  ### What's New in v1.0.21
+  - Native performance improvements
+  - High-speed video playback & stream optimizations
+  - Bug fixes and stability enhancements
+assets:
+  arm64-v8a:
+    abi: arm64-v8a
+    fileName: Furina-v1.0.21-arm64-v8a.apk
+    downloadUrl: https://github.com/SubhamCrid/furina-releases/releases/download/mobile-v1.0.21/Furina-v1.0.21-arm64-v8a.apk
+    fallbackUrls:
+      - https://cdn.jsdelivr.net/gh/SubhamCrid/furina-releases@mobile-v1.0.21/mobile/bin/Furina-v1.0.21-arm64-v8a.apk
+    sizeBytes: 30086258
+    sizeMB: 28.69 MB
+    sha256: e702e208e034b46a980e61859da18f5d412e897de8f6d37efe9837b103feeb11
+  armeabi-v7a:
+    abi: armeabi-v7a
+    fileName: Furina-v1.0.21-armeabi-v7a.apk
+    downloadUrl: https://github.com/SubhamCrid/furina-releases/releases/download/mobile-v1.0.21/Furina-v1.0.21-armeabi-v7a.apk
+    fallbackUrls:
+      - https://cdn.jsdelivr.net/gh/SubhamCrid/furina-releases@mobile-v1.0.21/mobile/bin/Furina-v1.0.21-armeabi-v7a.apk
+    sizeBytes: 24367237
+    sizeMB: 23.24 MB
+    sha256: 469af12dbe2e1ea1463eb235c4dc5ce2bd8e8204027e250fbc10bd50fc3d0100
+  universal:
+    abi: universal
+    fileName: Furina-v1.0.21-universal.apk
+    downloadUrl: https://github.com/SubhamCrid/furina-releases/releases/download/mobile-v1.0.21/Furina-v1.0.21-universal.apk
+    fallbackUrls:
+      - https://cdn.jsdelivr.net/gh/SubhamCrid/furina-releases@mobile-v1.0.21/mobile/bin/Furina-v1.0.21-universal.apk
+    sizeBytes: 79314455
+    sizeMB: 75.64 MB
+    sha256: 02b4f771d590b586d7d61c73a9fd675ef6908c41ab71d97c0b488a1f8dbe259d
+  x86_64:
+    abi: x86_64
+    fileName: Furina-v1.0.21-x86_64.apk
+    downloadUrl: https://github.com/SubhamCrid/furina-releases/releases/download/mobile-v1.0.21/Furina-v1.0.21-x86_64.apk
+    fallbackUrls:
+      - https://cdn.jsdelivr.net/gh/SubhamCrid/furina-releases@mobile-v1.0.21/mobile/bin/Furina-v1.0.21-x86_64.apk
+    sizeBytes: 30662414
+    sizeMB: 29.24 MB
+    sha256: 7949ad7e270952448bd6678fcb31a7a4abe4ee05b86352398d00e67902f564c5
