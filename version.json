@@ -5,13 +5,13 @@
     "versionCode": 26,
     "tag": "mobile-v1.0.25",
     "publishedAt": "2026-10-21T03:13:30.918Z",
-    "manifestUrl": "https://cdn.jsdelivr.net/gh/SubhamCrid/furina-releases@main/mobile/latest.yml"
+    "manifestUrl": "https://raw.githubusercontent.com/SubhamCrid/furina-releases/main/mobile/latest.yml"
   },
   "software": {
     "version": "1.0.6",
     "tag": "software-v1.0.6",
     "publishedAt": "2026-10-21T03:14:13.321Z",
-    "manifestUrl": "https://cdn.jsdelivr.net/gh/SubhamCrid/furina-releases@main/software/latest.yml",
+    "manifestUrl": "https://raw.githubusercontent.com/SubhamCrid/furina-releases/main/software/latest.yml",
     "setupUrl": "https://github.com/SubhamCrid/furina-releases/releases/download/software-v1.0.6/Furina-Setup-1.0.6.exe"
   }
 }

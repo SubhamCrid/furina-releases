@@ -244,7 +244,7 @@ async function processMobileRelease() {
     versionCode: currentVersionCode,
     tag: tagName,
     publishedAt: newMobileManifest.publishedAt,
-    manifestUrl: `https://cdn.jsdelivr.net/gh/${GITHUB_OWNER}/${GITHUB_REPO}@main/mobile/latest.yml`,
+    manifestUrl: `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/main/mobile/latest.yml`,
   });
 
   // Append SHA256SUMS.txt
@@ -417,7 +417,7 @@ async function processSoftwareRelease() {
     version: currentVersion,
     tag: tagName,
     publishedAt: newSoftwareManifest.releaseDate,
-    manifestUrl: `https://cdn.jsdelivr.net/gh/${GITHUB_OWNER}/${GITHUB_REPO}@main/software/latest.yml`,
+    manifestUrl: `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/main/software/latest.yml`,
     setupUrl: downloadUrl,
   });
 
