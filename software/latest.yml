@@ -1,8 +1,8 @@
-version: 1.0.13
+version: 1.0.15
 files:
-  - url: https://github.com/SubhamCrid/furina-releases/releases/download/software-v1.0.13/Furina-Setup-1.0.13.exe
-    sha512: amSpjXlAow8zrNQp/+YWQ1ON6i7IY3/R9xW+Z3tH8TRJYpZwVFbmF/d+DjXKgkyjQ4Va0ZrnQEvQPxiJbIMoRQ==
-    size: 88808662
-path: https://github.com/SubhamCrid/furina-releases/releases/download/software-v1.0.13/Furina-Setup-1.0.13.exe
-sha512: amSpjXlAow8zrNQp/+YWQ1ON6i7IY3/R9xW+Z3tH8TRJYpZwVFbmF/d+DjXKgkyjQ4Va0ZrnQEvQPxiJbIMoRQ==
-releaseDate: 2026-10-21T05:27:07.249Z
+  - url: https://github.com/SubhamCrid/furina-releases/releases/download/software-v1.0.15/Furina-Setup-1.0.15.exe
+    sha512: f6uvVkomQ/Oosl20aj/Dm7dqsfCIOI/xlZ/C2SV+ZiNqSfm7um6Okx1TtlZEPDso3w1bOUERgiz11F/HpMef/g==
+    size: 88811626
+path: https://github.com/SubhamCrid/furina-releases/releases/download/software-v1.0.15/Furina-Setup-1.0.15.exe
+sha512: f6uvVkomQ/Oosl20aj/Dm7dqsfCIOI/xlZ/C2SV+ZiNqSfm7um6Okx1TtlZEPDso3w1bOUERgiz11F/HpMef/g==
+releaseDate: 2026-10-28T17:46:09.877Z

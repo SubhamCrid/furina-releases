@@ -1,0 +1,8 @@
+version: 1.0.13
+files:
+  - url: https://github.com/SubhamCrid/furina-releases/releases/download/software-v1.0.13/Furina-Setup-1.0.13.exe
+    sha512: amSpjXlAow8zrNQp/+YWQ1ON6i7IY3/R9xW+Z3tH8TRJYpZwVFbmF/d+DjXKgkyjQ4Va0ZrnQEvQPxiJbIMoRQ==
+    size: 88808662
+path: https://github.com/SubhamCrid/furina-releases/releases/download/software-v1.0.13/Furina-Setup-1.0.13.exe
+sha512: amSpjXlAow8zrNQp/+YWQ1ON6i7IY3/R9xW+Z3tH8TRJYpZwVFbmF/d+DjXKgkyjQ4Va0ZrnQEvQPxiJbIMoRQ==
+releaseDate: 2026-10-21T05:27:07.249Z
