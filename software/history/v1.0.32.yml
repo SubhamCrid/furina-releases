@@ -1,0 +1,8 @@
+version: 1.0.32
+files:
+  - url: https://github.com/SubhamCrid/furina-releases/releases/download/software-v1.0.32/Furina-Setup-1.0.32.exe
+    sha512: cl2LpVXjSyQDozf6b8QExLWbX8nQOayLeVQBDuCHPhgtb1sFmvoPORmVgWCmdsYazQsauTxkiTGd+zkZBHauUA==
+    size: 88821847
+path: https://github.com/SubhamCrid/furina-releases/releases/download/software-v1.0.32/Furina-Setup-1.0.32.exe
+sha512: cl2LpVXjSyQDozf6b8QExLWbX8nQOayLeVQBDuCHPhgtb1sFmvoPORmVgWCmdsYazQsauTxkiTGd+zkZBHauUA==
+releaseDate: 2026-11-08T22:36:43.998Z
