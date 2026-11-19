@@ -1,8 +1,8 @@
-version: 1.0.35
+version: 1.0.36
 files:
-  - url: https://github.com/SubhamCrid/furina-releases/releases/download/software-v1.0.35/Furina-Setup-1.0.35.exe
-    sha512: nhDgOFyYLw5Jgzse3wqovYgkHDwKXQCTepUthiktvuBiPPt39fbnD+loBEzmKmde9TrSOESlH/HyQmXuKNQmGA==
-    size: 88822092
-path: https://github.com/SubhamCrid/furina-releases/releases/download/software-v1.0.35/Furina-Setup-1.0.35.exe
-sha512: nhDgOFyYLw5Jgzse3wqovYgkHDwKXQCTepUthiktvuBiPPt39fbnD+loBEzmKmde9TrSOESlH/HyQmXuKNQmGA==
-releaseDate: 2026-11-11T22:15:16.040Z
+  - url: https://github.com/SubhamCrid/furina-releases/releases/download/software-v1.0.36/Furina-Setup-1.0.36.exe
+    sha512: B7f9Bg9cUDYBLlVOQlLE5epUfgzjJomI5EHOH4TOik7rY4VNcg+aMjdY3n26VQ/lR6e0wirjWSJHGfcUPXPSgg==
+    size: 88822590
+path: https://github.com/SubhamCrid/furina-releases/releases/download/software-v1.0.36/Furina-Setup-1.0.36.exe
+sha512: B7f9Bg9cUDYBLlVOQlLE5epUfgzjJomI5EHOH4TOik7rY4VNcg+aMjdY3n26VQ/lR6e0wirjWSJHGfcUPXPSgg==
+releaseDate: 2026-11-19T14:06:06.390Z
